@@ -1,0 +1,226 @@
+BASIS PENGETAHUAN: KECERDASAN BUATAN (ARTIFICIAL INTELLIGENCE) DALAM PENDIDIKAN
+Cakupan: mata kuliah Kecerdasan Buatan dan penerapannya di sekolah (SD, SMP, SMA/SMK) serta kampus (perguruan tinggi).
+
+==================================================
+BAGIAN 1. DASAR KECERDASAN BUATAN
+==================================================
+
+1.1 Pengertian
+Kecerdasan Buatan (KB), atau Artificial Intelligence (AI), adalah cabang ilmu komputer yang membuat mesin atau program mampu melakukan tugas yang biasanya membutuhkan kecerdasan manusia, seperti belajar, bernalar, mengenali pola, memahami bahasa, mengambil keputusan, dan memecahkan masalah. Di Indonesia istilah resminya juga ditulis "Kecerdasan Artifisial (KA)".
+
+1.2 Sejarah singkat
+- 1950: Alan Turing mengajukan "Turing Test" untuk menguji apakah mesin dapat berperilaku cerdas seperti manusia.
+- 1956: Istilah "Artificial Intelligence" diperkenalkan oleh John McCarthy pada Konferensi Dartmouth. Tahun ini dianggap kelahiran bidang AI.
+- 1960-an sampai 1980-an: berkembang sistem pakar (expert system) dan pemrograman berbasis aturan.
+- 1997: komputer Deep Blue (IBM) mengalahkan juara catur dunia Garry Kasparov.
+- 2010-an: era deep learning dan big data berkembang pesat berkat GPU dan data yang melimpah.
+- 2020-an: AI generatif (chatbot, pembuat teks, gambar, dan kode) menjadi populer dan dipakai luas, termasuk di dunia pendidikan.
+
+1.3 Jenis AI berdasarkan kemampuan
+- AI sempit (Narrow AI): AI yang dirancang untuk satu tugas tertentu, misalnya rekomendasi video, pengenal wajah, chatbot. Semua AI yang ada saat ini termasuk jenis ini.
+- AI umum (Artificial General Intelligence/AGI): AI yang mampu melakukan berbagai tugas intelektual selevel manusia. Masih berupa target riset, belum tercapai.
+- Super AI: AI yang melampaui kecerdasan manusia. Masih bersifat teori.
+
+1.4 Cabang utama AI
+- Machine Learning (ML): mesin belajar dari data tanpa diprogram aturan satu per satu.
+- Deep Learning: bagian dari ML yang memakai jaringan saraf tiruan berlapis banyak.
+- Natural Language Processing (NLP): memahami dan menghasilkan bahasa manusia (chatbot, penerjemah).
+- Computer Vision: memahami gambar dan video (pengenalan wajah, pembaca teks pada foto).
+- Speech Recognition: mengubah suara menjadi teks dan sebaliknya.
+- Robotika: mesin yang bergerak dan bertindak di dunia nyata.
+- Sistem Pakar (Expert System): meniru keahlian pakar dengan aturan JIKA-MAKA.
+- Sistem Rekomendasi: menyarankan konten atau produk sesuai kebiasaan pengguna.
+- AI Generatif (Generative AI): menghasilkan konten baru seperti teks, gambar, audio, dan kode.
+
+1.5 Jenis Machine Learning
+- Supervised learning (pembelajaran terawasi): belajar dari data berlabel, misalnya memprediksi nilai siswa atau mengklasifikasikan email spam.
+- Unsupervised learning (tak terawasi): menemukan pola dari data tanpa label, misalnya mengelompokkan siswa berdasarkan gaya belajar (clustering).
+- Reinforcement learning (penguatan): belajar lewat coba-coba dengan hadiah dan hukuman, misalnya AI yang bermain game.
+
+1.6 Topik yang umum dipelajari di mata kuliah Kecerdasan Buatan
+- Agen cerdas dan lingkungan
+- Pencarian (search): BFS, DFS, Uniform Cost Search, Greedy Best-First, A*
+- Representasi pengetahuan dan logika (logika proposisi, logika predikat)
+- Sistem pakar dan inferensi (forward chaining, backward chaining)
+- Logika Fuzzy
+- Jaringan Saraf Tiruan (Neural Network)
+- Algoritma Genetika
+- Machine Learning: regresi, k-NN, decision tree, naive Bayes, k-means, SVM
+- Pengolahan bahasa alami dan computer vision dasar
+- Etika dan dampak sosial AI
+
+1.7 Istilah penting (glosarium)
+- Algoritma: langkah-langkah terurut untuk menyelesaikan masalah.
+- Dataset: kumpulan data untuk melatih atau menguji model.
+- Model: hasil pelatihan AI yang dipakai untuk membuat prediksi atau jawaban.
+- Training (pelatihan): proses model belajar dari data.
+- Prompt: perintah atau pertanyaan yang diberikan kepada AI generatif.
+- LLM (Large Language Model): model bahasa besar yang dilatih dengan teks sangat banyak, dasar dari chatbot modern.
+- Bias algoritma: hasil AI yang tidak adil karena data latih yang tidak seimbang atau mengandung prasangka.
+- Halusinasi AI: jawaban AI yang terdengar meyakinkan tetapi salah atau dikarang.
+- Overfitting: model terlalu hafal data latih sehingga buruk pada data baru.
+- Chatbot: program yang berinteraksi lewat percakapan teks atau suara.
+
+==================================================
+BAGIAN 2. PENERAPAN AI DALAM PENDIDIKAN
+==================================================
+
+2.1 Penerapan untuk siswa dan mahasiswa
+- Pembelajaran personal (adaptive learning): materi dan tingkat kesulitan menyesuaikan kemampuan tiap siswa.
+- Tutor cerdas (intelligent tutoring system) dan chatbot belajar yang menjawab pertanyaan kapan saja.
+- Bantuan menulis dan belajar bahasa: koreksi tata bahasa, saran perbaikan kalimat, latihan percakapan.
+- Penerjemahan dan transkripsi otomatis: membantu memahami materi berbahasa asing dan membuat catatan dari rekaman kuliah.
+- Ringkasan materi, pembuatan kuis, dan kartu belajar (flashcard) otomatis.
+- Aksesibilitas: teks-ke-suara dan suara-ke-teks untuk siswa tunanetra, tunarungu, atau disleksia.
+
+2.2 Penerapan untuk guru dan dosen
+- Membantu membuat RPP/modul ajar, bahan ajar, soal, dan rubrik penilaian (hasil tetap harus ditinjau dan disesuaikan oleh guru/dosen).
+- Penilaian otomatis untuk soal pilihan ganda dan, secara terbatas, umpan balik awal untuk esai.
+- Analitik pembelajaran (learning analytics): memantau perkembangan siswa dan mendeteksi dini siswa yang berisiko tertinggal atau putus studi.
+- Mengurangi beban administrasi: rekap kehadiran, nilai, dan laporan.
+- Deteksi plagiarisme dan kemiripan teks.
+
+2.3 Penerapan untuk institusi (sekolah dan kampus)
+- Chatbot layanan akademik: info jadwal, pendaftaran, biaya, dan persyaratan.
+- Penerimaan siswa atau mahasiswa baru: pemrosesan dan verifikasi berkas lebih cepat.
+- Manajemen kehadiran, misalnya dengan pengenalan wajah (perlu kehati-hatian soal privasi).
+- Perencanaan jadwal dan alokasi sumber daya otomatis.
+- Prediksi kebutuhan, kelulusan, dan kinerja akademik berbasis data.
+- Pemantauan ujian daring (proctoring), dengan catatan isu privasi dan keadilan.
+
+2.4 Contoh platform AI yang dikenal di pendidikan
+Contoh umum: chatbot AI seperti ChatGPT, Gemini, dan Claude; aplikasi belajar bahasa seperti Duolingo; asisten menulis seperti Grammarly; alat pemeriksa kemiripan teks seperti Turnitin; serta tutor AI seperti Khanmigo. Fitur dan ketersediaan tiap platform dapat berubah, jadi periksa informasi terbaru di situs resminya.
+
+==================================================
+BAGIAN 3. MANFAAT DAN TANTANGAN
+==================================================
+
+3.1 Manfaat AI dalam pendidikan
+- Belajar lebih personal sesuai kecepatan dan kebutuhan masing-masing.
+- Tersedia 24 jam dan memberi umpan balik cepat.
+- Menghemat waktu guru dan dosen pada pekerjaan administratif sehingga bisa fokus membimbing.
+- Memperluas akses belajar, termasuk bagi daerah terpencil dan siswa berkebutuhan khusus (jika infrastrukturnya tersedia).
+- Mendukung keputusan berbasis data untuk perbaikan pembelajaran.
+- Mendorong literasi digital dan keterampilan masa depan.
+
+3.2 Tantangan dan risiko
+- Ketergantungan berlebihan: siswa menyalin jawaban AI tanpa berpikir sehingga kemampuan berpikir kritis dan menulis menurun.
+- Kecurangan akademik dan plagiarisme.
+- Akurasi: AI dapat salah atau berhalusinasi, sehingga hasilnya wajib diverifikasi.
+- Bias dan ketidakadilan akibat data latih yang tidak seimbang.
+- Privasi dan keamanan data pribadi siswa.
+- Kesenjangan digital: tidak semua sekolah atau siswa punya perangkat dan internet yang memadai.
+- Kesiapan guru/dosen: butuh pelatihan literasi AI.
+- Berkurangnya interaksi manusia jika AI dipakai berlebihan.
+- Biaya dan keberlanjutan penggunaan platform.
+
+==================================================
+BAGIAN 4. ETIKA, INTEGRITAS AKADEMIK, DAN KEBIJAKAN
+==================================================
+
+4.1 Prinsip etika penggunaan AI di pendidikan
+- Transparansi: sebutkan jika AI dipakai membantu mengerjakan tugas.
+- Tanggung jawab: pengguna tetap bertanggung jawab penuh atas hasil akhir, bukan AI.
+- Verifikasi: periksa fakta, sumber, dan hitungan dari AI.
+- Keadilan: waspadai bias dan pastikan semua siswa punya kesempatan setara.
+- Privasi: jangan memasukkan data pribadi (nama lengkap, NIK, alamat, nilai) atau data rahasia ke alat AI publik.
+- Manusia tetap memegang kendali (human in the loop), terutama untuk keputusan penting seperti penilaian dan kelulusan.
+
+4.2 Integritas akademik
+Menggunakan AI untuk mencari ide, memahami konsep, atau memeriksa tata bahasa umumnya dapat diterima bila sesuai aturan sekolah/kampus. Menyerahkan hasil AI sebagai karya sendiri tanpa menyebutkan dan tanpa memahaminya termasuk pelanggaran integritas akademik. Aturan pastinya ditentukan oleh guru, dosen, atau institusi masing-masing, jadi tanyakan kebijakan yang berlaku.
+
+4.3 Cara mensitasi atau menyebutkan penggunaan AI
+Cantumkan nama alat AI, versi atau tanggal akses, dan tujuan penggunaannya (misalnya: "Bantuan AI dipakai untuk memeriksa tata bahasa"). Format detail mengikuti gaya sitasi yang dipakai (APA, IEEE, dan sebagainya) serta aturan institusi.
+
+4.4 Kebijakan dan acuan (secara umum)
+- Strategi Nasional Kecerdasan Artifisial Indonesia 2020-2045 (Stranas KA) memuat arah pengembangan AI nasional, termasuk bidang pendidikan dan riset.
+- Pemerintah Indonesia (Kemendikdasmen) telah merencanakan mata pelajaran pilihan Koding dan Kecerdasan Artifisial (KA) untuk jenjang pendidikan dasar dan menengah. Jenjang dan waktu pelaksanaan dapat berubah, jadi periksa informasi resmi terbaru.
+- UU No. 27 Tahun 2022 tentang Pelindungan Data Pribadi (UU PDP) mengatur perlindungan data pribadi, relevan untuk data siswa dan mahasiswa.
+- UNESCO menerbitkan panduan penggunaan AI generatif di pendidikan, yang menekankan pendekatan berpusat pada manusia, perlindungan privasi, dan pertimbangan batas usia pengguna.
+
+==================================================
+BAGIAN 5. TIPS PRAKTIS
+==================================================
+
+5.1 Tips untuk siswa dan mahasiswa
+- Gunakan AI sebagai teman belajar, bukan pengganti berpikir: minta penjelasan, contoh, dan latihan soal, lalu coba kerjakan sendiri.
+- Tulis prompt yang jelas: sebutkan peran, tujuan, konteks, dan format jawaban yang diinginkan.
+- Selalu cek ulang jawaban dengan buku, jurnal, atau sumber resmi.
+- Jangan memasukkan data pribadi atau data rahasia.
+- Patuhi aturan penggunaan AI di sekolah atau kampus.
+
+5.2 Tips untuk guru dan dosen
+- Rancang tugas yang menilai proses berpikir (diskusi, presentasi lisan, proyek, refleksi) agar tidak mudah diselesaikan hanya dengan AI.
+- Ajarkan literasi AI: cara kerja, kelebihan, keterbatasan, dan etikanya.
+- Tinjau semua materi dan soal buatan AI sebelum dipakai.
+- Tetapkan aturan penggunaan AI yang jelas dan sampaikan di awal semester.
+
+5.3 Contoh prompt yang baik
+"Kamu adalah tutor Kecerdasan Buatan. Jelaskan algoritma A* untuk mahasiswa semester 3 dengan bahasa sederhana, beri satu contoh, lalu buat 3 soal latihan."
+
+==================================================
+BAGIAN 6. TANYA JAWAB (FAQ)
+==================================================
+
+T: Apa itu kecerdasan buatan?
+J: Kecerdasan buatan adalah bidang ilmu komputer yang membuat mesin mampu meniru kemampuan manusia seperti belajar, bernalar, memahami bahasa, dan mengambil keputusan.
+
+T: Apa bedanya AI, Machine Learning, dan Deep Learning?
+J: AI adalah bidang yang paling luas. Machine Learning adalah bagian AI yang belajar dari data. Deep Learning adalah bagian Machine Learning yang memakai jaringan saraf tiruan berlapis banyak.
+
+T: Apa manfaat AI bagi siswa?
+J: AI membantu belajar personal, memberi penjelasan dan latihan kapan saja, membantu menulis dan belajar bahasa, serta meringkas materi.
+
+T: Apa manfaat AI bagi guru dan dosen?
+J: AI membantu menyiapkan bahan ajar dan soal, mempercepat penilaian dan administrasi, serta memantau perkembangan siswa lewat analitik pembelajaran.
+
+T: Apakah AI akan menggantikan guru atau dosen?
+J: Tidak sepenuhnya. AI dapat membantu tugas tertentu, tetapi guru dan dosen tetap penting untuk membimbing, memotivasi, menanamkan nilai, dan membangun hubungan sosial dengan peserta didik.
+
+T: Apakah memakai AI untuk mengerjakan tugas termasuk curang?
+J: Tergantung aturan sekolah atau kampus dan cara pemakaiannya. Memakai AI untuk memahami konsep atau memeriksa tata bahasa umumnya wajar, tetapi menyerahkan hasil AI sebagai karya sendiri tanpa menyebutkan dan tanpa memahaminya termasuk pelanggaran integritas akademik.
+
+T: Mengapa jawaban AI harus diverifikasi?
+J: Karena AI dapat salah atau berhalusinasi, yaitu menghasilkan jawaban yang tampak meyakinkan tetapi tidak benar.
+
+T: Apa risiko AI terhadap privasi siswa?
+J: Data pribadi yang dimasukkan ke alat AI dapat tersimpan atau disalahgunakan. Karena itu, hindari memasukkan data pribadi dan pilih platform yang kebijakan privasinya jelas.
+
+T: Apa itu bias algoritma?
+J: Bias algoritma adalah hasil AI yang tidak adil karena data latihnya tidak seimbang atau mengandung prasangka, misalnya merugikan kelompok siswa tertentu.
+
+T: Apa itu sistem pakar?
+J: Sistem pakar adalah program yang meniru kemampuan seorang pakar dalam menyelesaikan masalah memakai basis pengetahuan dan aturan JIKA-MAKA.
+
+T: Apa itu chatbot akademik?
+J: Chatbot akademik adalah asisten percakapan yang menjawab pertanyaan seputar layanan sekolah atau kampus, seperti jadwal, pendaftaran, dan persyaratan.
+
+T: Apa itu pembelajaran adaptif?
+J: Pembelajaran adaptif adalah sistem yang menyesuaikan materi, urutan, dan tingkat kesulitan sesuai kemampuan dan kemajuan setiap siswa.
+
+T: Apa itu learning analytics?
+J: Learning analytics adalah analisis data aktivitas belajar untuk memahami dan meningkatkan proses pembelajaran, misalnya mendeteksi siswa yang berisiko tertinggal.
+
+T: Bagaimana cara sekolah atau kampus mengatasi kecurangan akibat AI?
+J: Dengan membuat aturan yang jelas, merancang tugas yang menilai proses berpikir (presentasi lisan, proyek, refleksi), mengajarkan literasi AI, dan memakai alat pendukung seperti pemeriksa kemiripan teks, dengan tetap mengandalkan penilaian manusia.
+
+T: Apa itu kesenjangan digital dalam konteks AI pendidikan?
+J: Perbedaan akses terhadap perangkat, internet, dan keterampilan digital antar siswa atau daerah, yang membuat manfaat AI tidak merata.
+
+T: Keterampilan apa yang perlu dimiliki siswa di era AI?
+J: Berpikir kritis, literasi data dan digital, kreativitas, komunikasi, kolaborasi, etika, serta kemampuan belajar sepanjang hayat.
+
+T: Apa itu Turing Test?
+J: Uji yang diusulkan Alan Turing (1950) untuk menilai apakah mesin dapat berperilaku cerdas sehingga penanya tidak bisa membedakannya dari manusia.
+
+T: Apakah AI sudah memiliki kesadaran atau perasaan?
+J: Tidak. AI yang ada saat ini mengolah pola dari data dan tidak memiliki kesadaran atau perasaan seperti manusia.
+
+T: Apa itu prompt engineering?
+J: Teknik menyusun perintah yang jelas dan terarah kepada AI generatif agar hasilnya sesuai kebutuhan.
+
+T: Apakah ada mata pelajaran AI di sekolah di Indonesia?
+J: Pemerintah telah merencanakan mata pelajaran pilihan Koding dan Kecerdasan Artifisial untuk jenjang dasar dan menengah. Detail jenjang dan jadwalnya dapat berubah, jadi periksa pengumuman resmi Kemendikdasmen.
+
+T: Hal apa yang tidak ada di basis pengetahuan ini?
+J: Informasi pribadi atau data khusus suatu sekolah atau kampus tertentu (jadwal, nama dosen, biaya) tidak tercantum. Untuk hal itu, hubungi pihak sekolah atau kampus terkait.
